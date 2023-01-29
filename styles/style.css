@@ -126,6 +126,7 @@ input[type="text"]::placeholder{
     border-top: 1px solid #c4c4c4;
 }
 .checkbox{
+    position: relative;
     float: left;
     margin-right: 0.6rem;
     width: 22px;
@@ -139,6 +140,8 @@ input[type="text"]::placeholder{
 }
 
 .checkbox:checked::before{
+    position: absolute;
+    top: -5px;
     font-size: 21px;
     padding: 2px;
     content: '✓';
