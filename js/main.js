@@ -155,9 +155,9 @@ const taskCount = () => {
         }
     });
     if(count === 1){
-        document.getElementById("todo-count").innerText = count + " task left";
+        document.getElementById("todo-count").innerText = count + " Task left";
     }else{
-        document.getElementById("todo-count").innerText = count + " tasks left";
+        document.getElementById("todo-count").innerText = count + " Tasks left";
     }
 }
 
