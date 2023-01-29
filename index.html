@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script async src="js/main.js"></script>
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Input -->
+        <header>
+            <h1>todos</h1>
+            <div class="input-field">
+                <i id="toggle-btn" class="fa fa-chevron-down icon" aria-hidden="true"></i>
+                <input type="text" id="addTask" placeholder="What needs to be done?">
+            </div>
+        </header>
+        <!-- Tasks -->
+        <section class="tasks-container">
+            <main id="task-list" class="tasks">
+
+            </main>
+            <!-- Filters -->
+            <footer class="app-footer">
+                <span id="todo-count" class="todo-count">0 Item left</span>
+                <ul class="filters">
+                    <li id="all-tasks"><a href="#/All">All</a></li>
+                    <li id="active-tasks"><a href="#/Avtive">Active</a></li>
+                    <li id="completed-tasks"><a href="#/Completed">Completed</a></li>
+                </ul>
+                <a id="clear-completed" class="clear-btn" href="">Clear completed</a>
+            </footer>
+        </section>
+    </div>
+</html>
